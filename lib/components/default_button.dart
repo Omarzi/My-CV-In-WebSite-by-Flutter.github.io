@@ -15,7 +15,7 @@ class DefaultButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
+    return MaterialButton(
       padding: EdgeInsets.symmetric(
         vertical: kDefaultPadding,
         horizontal: kDefaultPadding * 2.5,
